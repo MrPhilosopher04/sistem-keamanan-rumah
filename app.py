@@ -9,6 +9,8 @@ import pygame
 import threading
 import pandas as pd
 import yt_dlp
+import os
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"  # Suppress SDL errors
 
 # Load model YOLOv8
 model = YOLO("yolov8n.pt")
