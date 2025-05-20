@@ -1,8 +1,9 @@
 opencv-python==4.9.0.80
 pytube==15.0.0
 streamlit==1.32.0
-numpy==1.26.4  # Pinned to exact compatible version
+numpy==1.26.4
 ultralytics==8.0.230
-pygame==2.5.2; sys_platform != 'linux'  # Skip pygame on Linux (Streamlit Cloud)
 pandas==2.1.1
 yt-dlp==2023.10.13
+pydub==0.25.1  # New
+simpleaudio==1.0.4  # New
