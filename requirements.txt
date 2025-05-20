@@ -3,7 +3,8 @@ pytube==15.0.0
 streamlit==1.32.0
 numpy==1.26.4
 ultralytics==8.0.230
-pandas==2.1.1
+pandas==2.2.1  # Updated from 2.1.1
 yt-dlp==2023.10.13
-pydub==0.25.1  # New
-simpleaudio==1.0.4  # New
+pydub==0.25.1
+simpleaudio==1.0.4
+setuptools==68.2.2  # Needed for proper builds
